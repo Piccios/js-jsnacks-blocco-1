@@ -4,6 +4,7 @@
 const Invitati = ["Gatsby", "Robin", "Mario", "Paolo", "Giuseppe", "Gino", "Marco", "Giorgio", "Giulia", "Maria", "Giada", "Giovanna", "Giuliana", "Giulio", "Giuseppina", "Giorgia"];
 
 let nome = prompt("Inserisci il tuo nome.");
+nome = nome.charAt(0).toLocaleUpperCase() + nome.substring(1, nome.length).toLowerCase();
 
 if (Invitati.includes(nome)) {
     alert("Ciao " + nome + ", puoi partecipare alla festa del grande Gatsby!");
