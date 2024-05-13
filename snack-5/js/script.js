@@ -8,7 +8,7 @@ let userNumber = Number.parseInt(prompt("Inserisci un numero: "));
 
 if (userNumber % 2 === 1) { 
     numbers.push(userNumber);
-    console.log(numbers);
 }
 }
 
+console.log(numbers);
