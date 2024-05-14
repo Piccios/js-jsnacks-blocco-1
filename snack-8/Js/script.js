@@ -12,7 +12,7 @@ let divVerde = document.createElement('div');
 
 let divRosso = document.createElement('div');
 
-//stampo in divVerde i numeri dispari e in divRosso i numeri pari presenti in array 
+//stampo in divVerde i numeri dispari e in divRosso i numeri pari presenti in array
 
 if (array.length > 0) {
     for (let i = 0; i < array.length; i++) {
