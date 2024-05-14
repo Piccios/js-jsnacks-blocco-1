@@ -28,3 +28,6 @@ if (array.length > 0) {
 
 document.body.appendChild(divVerde);
 document.body.appendChild(divRosso);
+
+divRosso.style.color ='red';
+divVerde.style.color = 'green';
