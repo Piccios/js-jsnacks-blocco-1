@@ -1,7 +1,8 @@
 
 // Fai inserire un numero, che chiameremo N, all'utente. Genera N array, ognuno formato da 10 numeri casuali da 1 a 100. Ogni volta che ne crei uno, stampalo. 
 
-const N = Number.parseInt(prompt("Inserisci un numero: "));
+const N = Number.parseInt(prompt("Inserisci un numero: ") ,10);
+
 
 // creo tanti array per il valore di N ( se N = 6 allora creo 6 array)
 
